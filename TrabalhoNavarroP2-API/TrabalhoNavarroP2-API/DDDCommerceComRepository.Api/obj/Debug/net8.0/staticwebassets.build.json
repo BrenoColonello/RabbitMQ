@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "ccA0E9ruIb/ZPtMCFuBGKYdqeC+rLPQaCadOFboOHH4=",
+  "Source": "DDDCommerceComRepository.Api.RedeSocial",
+  "BasePath": "_content/DDDCommerceComRepository.Api.RedeSocial",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

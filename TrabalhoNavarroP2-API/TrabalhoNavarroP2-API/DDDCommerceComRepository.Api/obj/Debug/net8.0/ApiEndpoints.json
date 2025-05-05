@@ -1,0 +1,478 @@
+[
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.ClienteController",
+    "Method": "ObterTodos",
+    "RelativePath": "api/cliente",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DDDCommerceComRepository.Domain.RedeSocial.Entidades.Cliente, DDDCommerceComRepository.Domain.RedeSocial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.ClienteController",
+    "Method": "Adicionar",
+    "RelativePath": "api/cliente",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.ClienteController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/cliente/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Cliente",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.ClienteController",
+    "Method": "Atualizar",
+    "RelativePath": "api/cliente/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuario",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Cliente",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.ClienteController",
+    "Method": "Remover",
+    "RelativePath": "api/cliente/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.EventoController",
+    "Method": "ObterTodosEventos",
+    "RelativePath": "api/Evento",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DDDCommerceComRepository.Domain.RedeSocial.Entidades.Evento, DDDCommerceComRepository.Domain.RedeSocial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.EventoController",
+    "Method": "AdicionarEvento",
+    "RelativePath": "api/Evento",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "evento",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Evento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.EventoController",
+    "Method": "ObterEventoPorId",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Evento",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.EventoController",
+    "Method": "AtualizarEvento",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "evento",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Evento",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.EventoController",
+    "Method": "RemoverEvento",
+    "RelativePath": "api/Evento/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.ParticipacaoController",
+    "Method": "Participar",
+    "RelativePath": "api/Participacao",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "participacao",
+        "Type": "DDDCommerceComRepository.Application.RedeSocial.DTOs.ParticipacaoDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.PostagemController",
+    "Method": "GetAll",
+    "RelativePath": "api/Postagem",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.PostagemController",
+    "Method": "Create",
+    "RelativePath": "api/Postagem",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "postagem",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Postagem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.PostagemController",
+    "Method": "GetById",
+    "RelativePath": "api/Postagem/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.PostagemController",
+    "Method": "Update",
+    "RelativePath": "api/Postagem/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "postagem",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Postagem",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.PostagemController",
+    "Method": "Delete",
+    "RelativePath": "api/Postagem/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.PostagemController",
+    "Method": "AddComentario",
+    "RelativePath": "api/Postagem/{id}/comentar",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "comentario",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.RedeSocial.Controllers.PostagemController",
+    "Method": "AddCurtida",
+    "RelativePath": "api/Postagem/{id}/curtir/{usuarioId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuarioId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.UsuarioController",
+    "Method": "ObterTodos",
+    "RelativePath": "api/usuarios",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[DDDCommerceComRepository.Domain.RedeSocial.Entidades.Usuario, DDDCommerceComRepository.Domain.RedeSocial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.UsuarioController",
+    "Method": "Adicionar",
+    "RelativePath": "api/usuarios",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.UsuarioController",
+    "Method": "ObterPorId",
+    "RelativePath": "api/usuarios/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Usuario",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.UsuarioController",
+    "Method": "Atualizar",
+    "RelativePath": "api/usuarios/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "usuario",
+        "Type": "DDDCommerceComRepository.Domain.RedeSocial.Entidades.Usuario",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.UsuarioController",
+    "Method": "Remover",
+    "RelativePath": "api/usuarios/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.UsuarioController",
+    "Method": "PararDeSeguirUsuario",
+    "RelativePath": "api/usuarios/{usuarioId}/parar-de-seguir/{seguidoId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "seguidoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "DDDCommerceComRepository.Api.Controllers.UsuarioController",
+    "Method": "SeguirUsuario",
+    "RelativePath": "api/usuarios/{usuarioId}/seguir/{seguidoId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuarioId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "seguidoId",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

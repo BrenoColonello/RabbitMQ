@@ -1,0 +1,11 @@
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.deps.json
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\bin\Debug\net8.0\DDDCommerceComRepository.Domain.pdb
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.AssemblyInfoInputs.cache
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.AssemblyInfo.cs
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\refint\DDDCommerceComRepository.Domain.dll
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\DDDCommerceComRepository.Domain.pdb
+C:\Users\Aula\source\repos\DDDCommerceComRepository\DDDCommerceComRepository.Domain\obj\Debug\net8.0\ref\DDDCommerceComRepository.Domain.dll
